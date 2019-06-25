@@ -2,8 +2,7 @@
 Code adapted from the Microsoft C# sample Bluetooth Low Energy Program:
 https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/BluetoothLE
 
-Main changes done to the program take place in Scenario2_Client.xaml.cs, where addition features not applicible to the H10 Polar Strap were
-removed. The program was also changed to record both the RR-intervals and Heart Rate broadcasted from the Polar Strap, both displaying them
+Main changes done to the program take place in Scenario2_Client.xaml.cs, where addition features not applicible to the H10 Polar Strap were removed. The program was also changed to record both the RR-intervals and Heart Rate broadcasted from the Polar Strap, both displaying them
 and writing them to a text file for further analysis.
 
 Purpose:
