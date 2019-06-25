@@ -1,1 +1,13 @@
-Testing
+Code adapted from the Microsoft C# sample Bluetooth Low Energy Program:
+https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/BluetoothLE
+
+Main changes done to the program take place in Scenario2_Client.xaml.cs, where addition features not applicible to the H10 Polar Strap were
+removed. The program was also changed to record both the RR-intervals and Heart Rate broadcasted from the Polar Strap, both displaying them
+and writing them to a text file for further analysis.
+
+Purpose:
+Collect HR and RR-interval data on patients with ASD-3 unable to undergo normal ECG recording sessions.
+
+Future Plans:
+After affect is determined to be correlated with heart rate, real time analysis of incoming RR-interval data will be done. This will allow
+for insight into affect changes in people who have difficulty expressing it.
